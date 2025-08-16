@@ -1,0 +1,16 @@
+import React, { Component } from 'react'
+import './Header.css'
+
+export default class Header extends Component {
+  render() {
+    return (
+      <div>
+        <div className="all-container">
+          <header className="title">
+            <h1>Evangadi Menu</h1>
+          </header>
+        </div>
+      </div>
+    );
+  }
+}
